@@ -1,0 +1,19 @@
+span:nth-child(1) {cursor: auto;}
+span:nth-child(2) {cursor:crosshair;}
+span:nth-child(3) {cursor:default;}
+span:nth-child(4) {cursor:e-resize;}
+span:nth-child(5) {cursor:grab;}
+span:nth-child(6) {cursor:help;}
+span:nth-child(7) {cursor:move;}
+span:nth-child(8) {cursor:n-resize;}
+span:nth-child(9) {cursor:ne-resize;}
+span:nth-child(10) {cursor:nw-resize;}
+span:nth-child(11) {cursor:progress;}
+span:nth-child(12) {cursor:s-resize;}
+span:nth-child(13) {cursor:se-resize;}
+span:nth-child(14) {cursor:sw-resize;}
+span:nth-child(15) {cursor:text;}
+span:nth-child(16) {cursor:w-resize;}
+span:nth-child(17) {cursor:wait;}
+span:nth-child(18) {cursor:not-allowed;}
+span:nth-child(19) {cursor:no-drop;}

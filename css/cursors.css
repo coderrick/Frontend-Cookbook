@@ -1,5 +1,6 @@
 body{cursor: url('http://icons.veryicon.com/ico/System/Google%20JFK/sms%20search.ico'),default;}
-/*Can multiple urls be applied as a default; if not is there a work around?*/
+/* Can multiple urls be applied as a default; if not is there a work around?*/
+/* Credit: https://davidwalsh.name/css-custom-cursor */
 span:nth-child(1) {cursor:auto;}
 span:nth-child(2) {cursor:crosshair;}
 span:nth-child(3) {cursor:default;}

@@ -1,4 +1,6 @@
-span:nth-child(1) {cursor: auto;}
+body{cursor: url('http://icons.veryicon.com/ico/System/Google%20JFK/sms%20search.ico'),default;}
+/*Can multiple urls be applied as a default; if not is there a work around?*/
+span:nth-child(1) {cursor:auto;}
 span:nth-child(2) {cursor:crosshair;}
 span:nth-child(3) {cursor:default;}
 span:nth-child(4) {cursor:e-resize;}

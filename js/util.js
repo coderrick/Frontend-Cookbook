@@ -8,6 +8,6 @@
 function viewport_size(){
     var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0)
     var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0)
-    console.log('viewport-width = '+ w + ', viewport-height = ' + h);
+    alert('viewport-width = '+ w + ', viewport-height = ' + h);
 }
 viewport_size();

@@ -5,6 +5,7 @@
 	<title>Document</title>
     <!--<link rel="stylesheet" type="text/css" href="css/cursors.css">-->
     <script type="text/javascript" src="js/util.js" async></script>
+    <script type="text/javascript" src="js/vue_main.js" async></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.6/vue.min.js" async></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vuex/2.1.1/vuex.min.js" async></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-resource/1.0.3/vue-resource.min.js" async></script>
@@ -13,6 +14,8 @@
 </head>
 <body>
 	<!--This is the basic template for an empty HTML webpage-->
-	<img src="blob/sample.svg" alt="Sample svg graphic">
+	<div id="app">
+      {{ message }}
+    </div>
 </body>
 </html>

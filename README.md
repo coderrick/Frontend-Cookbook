@@ -22,8 +22,13 @@ alert("hello javatpoint");
 ```
 
 Place script tags for JavaScript in the "<head>" tag and use the "async" and "defer" attributes
-to prevent the HTML Parser for being blocked while the external script is being loaded
+to prevent the HTML Parser from being blocked while the external script is being loaded
+NOTE - Use the "defer" attribute to preserve the execution order of the script tags.
 Credit: http://stackoverflow.com/questions/436411/where-is-the-best-place-to-put-script-tags-in-html-markup
+
+###Inheritance
+Inheritance in JavaScript works by
+
 
 ##CSS3
 ***

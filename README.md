@@ -29,6 +29,9 @@ Credit: http://stackoverflow.com/questions/436411/where-is-the-best-place-to-put
 ###Inheritance
 Inheritance in JavaScript works by
 
+NOTE - Always use 'use strict;' at the beginning of a JavaScript file to make the JS interpreter evaluate code strictly.
+Credit: http://stackoverflow.com/questions/1335851/what-does-use-strict-do-in-javascript-and-what-is-the-reasoning-behind-it
+
 
 ##CSS3
 ***

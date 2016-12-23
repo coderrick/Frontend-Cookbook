@@ -33,6 +33,8 @@
  }
  */
 
+//NOTE javascript variables unlike java so not need to be DECLARED before use
+//However this makes their SCOPE GLOBAL be careful!!!
 /**
  * This is a constructor 
  */
@@ -49,6 +51,6 @@ Person.prototype.displayPersonDetails = function(){
   console.log('Username = ' + this.username);
 }
 
-let d = new Person("Derrick", "Wilson-Duncan", "Easy St", "Wildunderrick");
 
+let d = new Person("Derrick", "Wilson-Duncan", "Easy St", "Wildunderrick");
 d.displayPersonDetails();

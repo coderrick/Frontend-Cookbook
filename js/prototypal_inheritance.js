@@ -51,6 +51,5 @@ Person.prototype.displayPersonDetails = function(){
   console.log('Username = ' + this.username);
 }
 
-
 let d = new Person("Derrick", "Wilson-Duncan", "Easy St", "Wildunderrick");
 d.displayPersonDetails();

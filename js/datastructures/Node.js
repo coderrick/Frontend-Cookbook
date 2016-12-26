@@ -1,5 +1,7 @@
 //No pun Intended
-var Node = {
-  value: val,
-  next: null
+"use strict";
+
+let Node = function(value, next){
+  this.value = value;
+  this.next = next;
 }

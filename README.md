@@ -33,6 +33,29 @@ NOTE - Always use 'use strict;' at the beginning of a JavaScript file to make th
 Credit: http://stackoverflow.com/questions/1335851/what-does-use-strict-do-in-javascript-and-what-is-the-reasoning-behind-it
 
 IMPORTANT - Ja
+
+Primitive Types
+-Undefined; represents a lack of existence (for the Engine)
+-Null; represents a lack of existence (can be used by the programmer)
+-Boolean; True or False
+-Number; Represented as a floating point number (there's always some decimals). There's only one number type, 
+so it makes math weird
+-String; a sequence of characters ''/""
+-Symbol; Used in ES6
+
+Operator:
+A special function that is syntactically (written) different(ly). Generally, operators take two parameters 
+and return one result
+
+Notations:
+Prefix - + 3, 4
+Infix - function name sits in between to two parameter ex 3 + 4
+Pofix 3, 4 +
+
+Operator Precedence
+
+Associativity - What order an operator gets called in (left - to - right/ right - to -left)
+
 ##CSS3
 ***
 http://learnlayout.com/no-layout.html

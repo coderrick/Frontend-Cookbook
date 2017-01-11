@@ -32,3 +32,12 @@ function event_emitter(){
 /**
  * What is the difference between call() and apply()
  */
+
+/**
+ * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
+ * 
+ * Regular Expressions
+ */
+function regi(string){
+  return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // $& means the whole matched string
+}

@@ -41,3 +41,8 @@ function event_emitter(){
 function regi(string){
   return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // $& means the whole matched string
 }
+
+function monad(mTransform){
+  a = new Array(1,2,3,4);
+  a.reduce; 
+}

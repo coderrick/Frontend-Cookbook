@@ -42,6 +42,9 @@ function regi(string){
   return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // $& means the whole matched string
 }
 
+/**
+ * My hamfisted attemp at creating a Monad.
+ */
 function monad(mTransform){
   a = new Array(1,2,3,4);
   a.reduce; 

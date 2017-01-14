@@ -15,3 +15,7 @@ function divideBy4(num){
 function round(num){
   return Math.round(num);
 }
+
+function applyOps(num){
+  return round(multiplyBy2(divideBy4(num)));
+}

@@ -4,4 +4,11 @@ Selectors:
 [selector: html_elem | .class | #id | ...]{
   [style-declaration]{property:value}
 }
+
+Advanced Selector:
+
+Specificity:
+i.e - https://specificity.keegan.st/
+
 */
+

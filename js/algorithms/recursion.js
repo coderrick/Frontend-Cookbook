@@ -13,3 +13,12 @@ function rec(n){
     console.log('call stack - ' + n);
   }
 }
+
+function fact(n){
+  if(n === 0){
+    return 1;
+  }else{
+    result = fact(n-1);
+    return result * n;
+  }
+}

@@ -4,7 +4,7 @@
  * Helpful sources:
  * http://stackoverflow.com/questions/1248081/get-the-browser-viewport-dimensions-with-javascript
  * https://www.youtube.com/watch?v=wqRDI4Pu5yY&t=2m42s
- * 
+ * Busted Modulo http://stackoverflow.com/questions/4467539/javascript-modulo-not-behaving
  * 
  */
 "use strict";
@@ -48,4 +48,8 @@ function regi(string){
 function monad(mTransform){
   a = new Array(1,2,3,4);
   a.reduce; 
+}
+
+function mod(n, m) {
+        return ((n % m) + m) % m;
 }

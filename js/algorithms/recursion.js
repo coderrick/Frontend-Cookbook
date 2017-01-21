@@ -1,6 +1,6 @@
 "use strict";
 /**
- * Credit: My Java NetBeans projects from school *Pats self on the back*
+ * Credit: https://www.youtube.com/watch?v=ozmE8G6YKww
  * 
  */
 

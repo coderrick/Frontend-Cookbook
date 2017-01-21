@@ -1,4 +1,4 @@
 "use strict";
 /**
- * Cred:http://stackoverflow.com/questions/41735901/using-character-codes-to-get-frequency-on-words-in-a-string-javascript
+ * Credit:http://rebootjeff.github.io/blog/2014/01/04/queues-stacks-javascript-class-patterns/
  */

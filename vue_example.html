@@ -29,8 +29,8 @@
 
     <div id="app-4">
       <ol>
-          <li>
-              
+          <li v-for="todo in todos">
+            {{ todo.text }}
           </li>
       </ol>
     </div>

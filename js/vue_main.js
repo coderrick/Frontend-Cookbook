@@ -34,7 +34,7 @@ var app4 = new Vue({
   }
 })
 
-//User input
+//User input onClick
 var app5 = new Vue({
   el: '#app-5',
   data: {
@@ -44,5 +44,13 @@ var app5 = new Vue({
     reverseMessage: function () {
       this.message = this.message.split().reverse().join('')
     }
+  }
+})
+
+//User input input field
+var app6 = new Vue({
+  el: '#app-6',
+  data: {
+    message: 'Hello Vue!'
   }
 })

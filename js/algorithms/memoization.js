@@ -1,3 +1,8 @@
+"use strict";
+/**
+ * Introduction to Memoization Javascript
+ * 
+ */
 let powerHunna = function(base){
   powerHunna._cache = powerHunna._cache || {};
   if(!powerHunna._cache[base]){

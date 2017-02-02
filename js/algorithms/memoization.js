@@ -1,6 +1,8 @@
 "use strict";
 /**
  * Introduction to Memoization Javascript
+ * Function Level Caching in Javascript Live Your Code
+ * Flash Talk how do you benchmark javascript functions
  * 
  */
 let powerHunna = function(base){

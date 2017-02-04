@@ -5,6 +5,9 @@ HTML5, CSS3, and JavaScript concepts
 ***
 https://www.w3.org/TR/html-markup/elements-by-function.html
 
+### Positioning
+
+
 ##JavaScript
 ***
 The Browser Object Model (BOM) is a browser-specific convention referring to all the objects exposed by the web browser.

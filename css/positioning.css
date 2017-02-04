@@ -6,3 +6,8 @@ body #container {
   background: white;
   padding: 20px;
 }
+
+#D {
+  /*float: left*/
+  margin: 0 20px 10px 0;
+}

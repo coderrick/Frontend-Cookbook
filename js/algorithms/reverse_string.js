@@ -1,4 +1,4 @@
-"use strict";
+t"use strict";
 /**
  * Basically a rip off from "The C Programming Language"
  * Credit: http://www.c4learn.com/c-programs/c-program-reverse-string-without-using.html sort of
@@ -19,7 +19,7 @@ function strRev(a){
     i++;
     j--;
   }
-  console.log("Reverse string is - " + str.join(''));
+  return "Reversed String = " + str.join('');
 }
 
 //Now implement it functionally http://softwareengineering.stackexchange.com/questions/164347/method-flags-as-arguments-or-as-member-variables

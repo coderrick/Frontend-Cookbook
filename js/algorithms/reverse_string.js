@@ -11,10 +11,9 @@ function strRev(a){
   let str = a.split('');
   let i = 0;
   let j = str.length - 1;
-console.log(j);
+  
   while(i < j) {
     let temp = str[i];
-    console.log(temp);
     str[i] = str[j];
     str[j] = temp;
     i++;

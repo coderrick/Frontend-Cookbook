@@ -1,4 +1,4 @@
-t"use strict";
+"use strict";
 /**
  * Basically a rip off from "The C Programming Language"
  * Credit: http://www.c4learn.com/c-programs/c-program-reverse-string-without-using.html sort of

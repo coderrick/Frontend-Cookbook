@@ -97,4 +97,6 @@ Synchronous - One at a time; and in order
 Invocation - Running a function; done by using ()
 ##CSS3
 ***
+Specificity
+Preprocessors
 http://learnlayout.com/no-layout.html

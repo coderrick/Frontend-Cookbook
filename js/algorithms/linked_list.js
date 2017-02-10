@@ -33,3 +33,12 @@ NodeL.prototype.deleteNode = function(head, d) {
   }
   return head;
 }
+
+NodeL.prototype.size = function(n) {
+  let i = 0;
+  while(n.next !== null){
+    n = n.next;
+    i++;
+  }
+  return i;
+}

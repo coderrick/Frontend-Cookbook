@@ -42,3 +42,12 @@ NodeL.prototype.size = function(n) {
   }
   return i;
 }
+
+NodeL.prototype.toArr = function(n) {
+  let s = [];
+  while(n.next !== null){
+    n = n.next;
+    s.push(n.data);
+  }
+  return s;
+}

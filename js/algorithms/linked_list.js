@@ -3,29 +3,33 @@
  * Credit: https://www.nczonline.net/blog/2009/04/13/computer-science-in-javascript-linked-list/ 
  */
 
-function LinkedList() {
-  this._length = 0;
-  this._head = null;
+let NodeL = function(d) {
+  this.data = d;
+  this.next = null;
 }
 
-LinkedList.prototype.add = function (data) {
-  //create a new node, place data in
-  var node = {
-    data: data,
-    next: null
-  },
-  //used to traverse the structure
-  current;
-  //special case: no items in the list yet
-  if (this._head === null) {
-    this._head = node;
-  } else {
-    current = this._head;
-    while (current.next) {
-      current = current.next;
-    }
-    current.next = node;
+NodeL.prototype.appendToTail = function(d) {
+  let NodeEnd = new NodeL(d);
+  let n = this
+  while(n.next !== null){
+    n = n.next;
   }
-  //don't forget to update the count
-  this._length++;
+  n.next = NodeEnd;
+}
+
+NodeL.prototype.deleteNode = function(head, d) {
+  let n = head;
+  
+  if(n.data == d){
+    return head.next;
+  }
+  
+  while(n.next !== null){
+    if(n.next.data == d){
+      n.next = n.next.next;
+      return head;
+    }
+    n = n.next;
+  }
+  return head;
 }

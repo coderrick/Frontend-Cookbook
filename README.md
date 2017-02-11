@@ -100,3 +100,13 @@ Invocation - Running a function; done by using ()
 Specificity
 Preprocessors
 http://learnlayout.com/no-layout.html
+
+Random Links
+https://news.ycombinator.com/item?id=13616535
+http://www.bbc.com/news/world-africa-38922819
+https://github.com/v8/v8/blob/master/src/js/array.js
+https://github.com/v8/v8/wiki
+http://stackoverflow.com/questions/15334817/eclipse-ide-source-code-for-outline-feature
+http://stackoverflow.com/questions/36154283/method-list-in-visual-studio-code
+https://atom.io/packages/symbols-view
+https://github.com/Microsoft/vscode/issues/5605

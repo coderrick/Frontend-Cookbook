@@ -1,4 +1,9 @@
 "use strict";
 /**
- * Credit: https://www.nczonline.net/blog/2009/04/13/computer-science-in-javascript-linked-list/ 
+ * Credit: Cracking the Code Interview
  */
+
+function clearBit(num, i){
+  let mask = (1 << i) - 1;
+  return num & mask;
+}

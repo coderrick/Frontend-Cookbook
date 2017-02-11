@@ -11,16 +11,15 @@ function strRev(a){
   let str = a.split('');
   let i = 0;
   let j = str.length - 1;
-console.log(j);
+  
   while(i < j) {
     let temp = str[i];
-    console.log(temp);
     str[i] = str[j];
     str[j] = temp;
     i++;
     j--;
   }
-  console.log("Reverse string is - " + str.join(''));
+  return "Reversed String = " + str.join('');
 }
 
 //Now implement it functionally http://softwareengineering.stackexchange.com/questions/164347/method-flags-as-arguments-or-as-member-variables

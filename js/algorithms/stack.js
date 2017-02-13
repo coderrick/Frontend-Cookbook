@@ -11,10 +11,10 @@ let Stackk = function() {
 }
 
 Stackk.prototype.push = function(i){
-  top += 1;
-  a[top] = i;
+  this.top += 1;
+  this.a[this.top] = i;
 }
 
 Stackk.prototype.pop = function(){
-  top -= top;
+  this.top -= this.top;
 }

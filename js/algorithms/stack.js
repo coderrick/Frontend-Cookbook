@@ -18,3 +18,7 @@ Stackk.prototype.push = function(i){
 Stackk.prototype.pop = function(){
   this.top -= this.top;
 }
+
+/**
+ * Try implementing with call, apply, bind 
+ */

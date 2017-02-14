@@ -6,6 +6,29 @@
 
 class Queue{
   constructor(){
-    
+    this.q = [];
+    this.front = -1;
+    this.rear = -1;
   }
 }
+
+Queue.prototype.isEmpty = function(){
+  if(this.front  === -1 && this.rear === -1){
+    return true;
+  }else{
+    return false;
+  }
+}
+
+Queue.prototype.Enqueue = function(i){
+  if(this.rear === this.q.length - 1){
+    return "QUEUE IS FULL";
+  }else if(isEmpty()){
+    this.front, this.rear = 0;
+  }else{
+    this.rear += 1;
+  }
+  this.q[this.rear] = i;
+}
+
+

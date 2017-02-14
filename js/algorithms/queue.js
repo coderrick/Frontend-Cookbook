@@ -21,9 +21,9 @@ Queue.prototype.isEmpty = function(){
 }
 
 Queue.prototype.Enqueue = function(i){
-  if(this.rear === this.q.length - 1){
+  if(this.rear !== this.q.length - 1){
     return "QUEUE IS FULL";
-  }else if(isEmpty()){
+  }else if(this.isEmpty()){
     this.front, this.rear = 0;
   }else{
     this.rear += 1;

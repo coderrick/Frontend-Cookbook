@@ -31,4 +31,14 @@ Queue.prototype.Enqueue = function(i){
   this.q[this.rear] = i;
 }
 
+Queue.prototype.Dequeue = function(i){
+  if(this.isEmpty()){
+    return;
+  }else if(this.front === this.rear){
+    this.front, this.rear = -1;
+  }else{
+    this.front += 1;
+  }
+}
+
 

@@ -21,3 +21,25 @@ function sub_arr_sum(arr, n){
   }
   return ans
 }
+
+//mss = maximum subarray sum
+function max_sub_arr(arr, n){
+  if(n === 1){
+    return arr[0];
+  }
+  let m = n/2;
+  let left_mss = max_sub_arr(arr, m);
+  let right_mss = max_sub_arr(arr + m, m - n);
+  let leftsum, rightsum, sum = 0;
+  for(i = m; i < n; i++){
+    sum += arr[i];
+    rightsum = Math.max(rightsum, sum);
+  }
+  sum = 0;
+  for(i = (m - 1); i >= 0; i--){
+    sum += arr[i];
+    leftsum = Math.max(leftsum, sum);
+  }
+  let ans = Math.max(left_mss, right_mss);
+  return Math.max(ans, leftsum + rightsum);
+}

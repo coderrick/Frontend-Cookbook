@@ -5,9 +5,11 @@
  * https://www.youtube.com/watch?v=oY4iNxteLJ4
  * https://www.safaribooksonline.com/library/view/data-structures-and/9781449373931/ch04.html
  */
-let Stackk = function() {
-  this.top = -1;
-  this.a = [];
+class Stackk{
+  constructor(){
+    this.top = -1;
+    this.a = [];
+  }
 }
 
 Stackk.prototype.push = function(i){

@@ -12,15 +12,16 @@ class Tree {
   } 
 }
 
-Tree.prototype.insertBST = function(root, data) {
+Tree.prototype.insertBST = function(data) {
+  let root = new Tree(data);
   if(root === null){
-    let root = new Tree(4);
-  }else if(data <= root.data){
-    root.left = insertBST(root.left, data);
+    return root;
+  }else if(this.data <= root.data){
+    root.left = this.insertBST(root.left, this.data);
   }else{
-    root.right = insertBST(root.right, data);
+    root.right = this.insertBST(root.right, this.data);
   }
-  return root;
+//  return root;
 }
 
 let t = new Tree(1);

@@ -4,25 +4,45 @@
  * 
  */
 
-class Tree {
-  constructor(data){
+class Node {
+  constructor(data) {
     this.data = data;
     this.left = null;
     this.right = null;
-  } 
-}
-
-Tree.prototype.insertBST = function(data) {
-  let root = new Tree(data);
-  if(root === null){
-    return root;
-  }else if(this.data <= root.data){
-    root.left = this.insertBST(root.left, this.data);
-  }else{
-    root.right = this.insertBST(root.right, this.data);
   }
-//  return root;
+  
+  insertBST(data) {
+    if (this.data === data) return
+    if (this.data < data) {
+      if (this.right) this.right.insertBST(data)
+      else this.right = new Node(data)
+      return
+    }
+    
+    if (this.left) this.left.insertBST(data)
+    else this.left = new Node(data)
+  }
 }
 
-let t = new Tree(1);
-t.insertBST(t, 5);
+// class Tree {
+//   constructor(data){
+//     this.data = data;
+//     this.left = null;
+//     this.right = null;
+//   } 
+// }
+
+// Tree.prototype.insertBST = function(data) {
+//   let root = new Tree(data);
+//   if(root === null){
+//     return root;
+//   }else if(this.data <= root.data){
+//     root.left = this.insertBST(root.left, this.data);
+//   }else{
+//     root.right = this.insertBST(root.right, this.data);
+//   }
+// //  return root;
+// }
+
+// let t = new Tree(1);
+// t.insertBST(t, 5);

@@ -4,45 +4,56 @@
  * 
  */
 
-class Node {
-  constructor(data) {
+class TreeNode {
+  constructor(data){
     this.data = data;
     this.left = null;
     this.right = null;
+  } 
+}
+
+TreeNode.prototype.insertBST = function(data) {
+  if(this.data === data){
+    return;
   }
-  
-  insertBST(data) {
-    if (this.data === data) return
-    if (this.data < data) {
-      if (this.right) this.right.insertBST(data)
-      else this.right = new Node(data)
-      return
+  if(this.data < data){
+    if(this.right){
+      this.right.insertBST(data);
+    }else{
+      this.right = new Tree(data);
     }
-    
-    if (this.left) this.left.insertBST(data)
-    else this.left = new Node(data)
+    return;
+  }
+  if(this.left){
+    this.left.insertBST(data);
+  }else{
+    this.left = new Tree(data);
   }
 }
 
-// class Tree {
-//   constructor(data){
+let t = new Node();
+t.insertBST(6);
+t.insertBST(4);
+t.insertBST(5);
+t.insertBST(8);
+t.insertBST(10);
+
+// class Node {
+//   constructor(data) {
 //     this.data = data;
 //     this.left = null;
 //     this.right = null;
-//   } 
-// }
-
-// Tree.prototype.insertBST = function(data) {
-//   let root = new Tree(data);
-//   if(root === null){
-//     return root;
-//   }else if(this.data <= root.data){
-//     root.left = this.insertBST(root.left, this.data);
-//   }else{
-//     root.right = this.insertBST(root.right, this.data);
 //   }
-// //  return root;
+  
+//   insertBST(data) {
+//     if (this.data === data) return
+//     if (this.data < data) {
+//       if (this.right) this.right.insertBST(data)
+//       else this.right = new Node(data)
+//       return
+//     }
+    
+//     if (this.left) this.left.insertBST(data)
+//     else this.left = new Node(data)
+//   }
 // }
-
-// let t = new Tree(1);
-// t.insertBST(t, 5);

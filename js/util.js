@@ -62,3 +62,9 @@ function monad(mTransform){
 function mod(n, m) {
         return ((n % m) + m) % m;
 }
+
+/**
+ * Duplicate an array/Split it in two
+ * http://stackoverflow.com/questions/3978492/javascript-fastest-way-to-duplicate-an-array-slice-vs-for-loop
+ */
+

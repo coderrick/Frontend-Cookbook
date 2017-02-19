@@ -31,6 +31,11 @@ arrStack.prototype.search = function(){
   //TODO
 }
 
+class linkStack{
+  constructor(){
+    //TODO
+  }
+}
 /**
  * Try implementing with call, apply, bind 
  */

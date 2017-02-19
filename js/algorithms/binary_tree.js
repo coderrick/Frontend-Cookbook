@@ -20,18 +20,18 @@ TreeNode.prototype.insertBST = function(data) {
     if(this.right){
       this.right.insertBST(data);
     }else{
-      this.right = new Tree(data);
+      this.right = new TreeNode(data);
     }
     return;
   }
   if(this.left){
     this.left.insertBST(data);
   }else{
-    this.left = new Tree(data);
+    this.left = new TreeNode(data);
   }
 }
 
-let t = new Node();
+let t = new TreeNode();
 t.insertBST(6);
 t.insertBST(4);
 t.insertBST(5);

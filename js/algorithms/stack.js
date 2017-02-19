@@ -5,20 +5,30 @@
  * https://www.youtube.com/watch?v=oY4iNxteLJ4
  * https://www.safaribooksonline.com/library/view/data-structures-and/9781449373931/ch04.html
  */
-class Stackk{
+
+class arrStack{
   constructor(){
     this.top = -1;
     this.a = [];
+    this.size = a.length;
   }
 }
 
-Stackk.prototype.push = function(i){
+arrStack.prototype.push = function(i){
   this.top += 1;
   this.a[this.top] = i;
 }
 
-Stackk.prototype.pop = function(){
+arrStack.prototype.pop = function(){
   this.top -= this.top;
+}
+
+arrStack.prototype.peek = function(){
+  //TODO
+}
+
+arrStack.prototype.search = function(){
+  //TODO
 }
 
 /**

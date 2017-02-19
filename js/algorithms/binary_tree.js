@@ -31,6 +31,18 @@ TreeNode.prototype.insertBST = function(data) {
   }
 }
 
+TreeNode.prototype.deleteBST = function(data) {
+  //TODO
+}
+
+TreeNode.prototype.searchBST = function(data) {
+  //TODO
+}
+
+TreeNode.prototype.printBST = function(data) {
+  //TODO
+}
+
 let t = new TreeNode();
 t.insertBST(6);
 t.insertBST(4);

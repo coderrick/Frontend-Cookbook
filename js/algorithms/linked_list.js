@@ -51,3 +51,55 @@ NodeL.prototype.listToArray = function(n) {
   }
   return s;
 }
+
+
+//************************************************************************************************* */
+//**********************Questions***************************** */
+//************************************************************************************************* */
+
+l2 = {
+  val:5,
+  next:{
+    val:6,
+    next:{
+      val:4,
+      next:null
+    }
+  }
+}
+
+l1 = {
+  val: 2,
+  next: {
+    val: 4,
+    next:{
+      val:3,
+      next: null
+    }
+  }
+}
+
+ListNode.prototype.add = function(list1, list2){
+  let a = list1;
+  let b = list2;
+  let c = new ListNode(0);
+  let result = new ListNode(0);
+  while(a.next !== null || b.next !== null){
+    result.val = a.val + b.val;
+    a = a.next;
+    b = b.next;
+    //c = c.next;
+  }
+  c.next = result 
+  return c;
+}
+
+const addTwoNumbers = function(l1, l2, carry) { 
+  const total = l1.val + l2.val + (carry || 0); 
+  const res = new ListNode(total % 10); 
+  const newCarry = total >= 10 ? 1 : 0; 
+  if (newCarry || l1.next !== null || l2.next !== null) { 
+    res.next = addTwoNumbers(l1.next || new ListNode(0), l2.next || new ListNode(0), newCarry); 
+  } 
+  return res; 
+};

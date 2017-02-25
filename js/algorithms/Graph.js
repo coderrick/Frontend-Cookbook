@@ -11,15 +11,23 @@ class Graph{
 }
 
 Graph.prototype.traverse = {
-  Djikstra: function(){
+  djikstra: function(){
     //TODO
+    return this.vertice_arr;
   },
 
-  BFS: function(){
+  bfs: function(){
     //TODO
+     return this.vertice_arr;
   },
 
-  DFS: function(){
+  dfs: function(){
     //TODO
+     return this.vertice_arr;
   }
 }
+
+let g = new Graph([9,2,5],[2,3,1]);
+g.traverse.djikstra();
+g.traverse.bfs();
+g.traverse.dfs();

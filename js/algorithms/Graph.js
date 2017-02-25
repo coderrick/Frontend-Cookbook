@@ -9,3 +9,17 @@ class Graph{
     this.edge_arr = edge_arr;
   }
 }
+
+Graph.prototype.traverse = {
+  Djikstra: function(){
+    //TODO
+  },
+
+  BFS: function(){
+    //TODO
+  },
+
+  DFS: function(){
+    //TODO
+  }
+}

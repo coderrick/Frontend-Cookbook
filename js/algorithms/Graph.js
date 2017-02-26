@@ -17,11 +17,13 @@ Graph.prototype.traverse = {
   },
 
   bfs: function(){
+    let que = [];
     //TODO
      return this.vertice_arr;
   },
 
   dfs: function(){
+    let stk = [];
     //TODO
      return this.vertice_arr;
   }

@@ -30,6 +30,3 @@ Graph.prototype.traverse = {
 }
 
 let g = new Graph([9,2,5],[2,3,1]);
-g.traverse.djikstra();
-g.traverse.bfs();
-g.traverse.dfs();
